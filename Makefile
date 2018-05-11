@@ -32,7 +32,8 @@ $(NAME):	$(OBJ)
 clean:
 		$(RM) $(OBJ)
 
-fclean:		$(RM) $(NAME)
+fclean:
+		$(RM) $(NAME)
 
 re:		fclean all
 
